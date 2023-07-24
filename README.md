@@ -1,2 +1,2 @@
 # current-time
-Current world time
+<?php echo date("d-H-i-s"); ?>
