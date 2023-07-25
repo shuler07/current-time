@@ -23,4 +23,4 @@ setInterval(() => {
     seconds = "0" + seconds;
   }
   time.textContent = years + "-" + months + "-" + days + "-" + hours + "-" + minutes + "-" + seconds;
-})
+}, 1000)
