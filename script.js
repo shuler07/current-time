@@ -1,5 +1,5 @@
+let time = document.querySelector("#time");
 function clock() {
-  let time = document.querySelector("#time");
   let date = new Date();
   let years = date.GetFullyYear();
   let months = date.GetMonth();
