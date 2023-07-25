@@ -1,6 +1,5 @@
-const time = document.querySelector("#time");
-setInterval(() => { clock() }, 1000);
 function clock() {
+  let time = document.querySelector("#time");
   let date = new Date();
   let years = date.GetFullyYear();
   let months = date.GetMonth();
@@ -25,3 +24,4 @@ function clock() {
   }
   time.textContent = years + "-" + months + "-" + days + "-" + hours + "-" + minutes + "-" + seconds;
 }
+setInterval(() => { clock() }, 1000);
