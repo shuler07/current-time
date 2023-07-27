@@ -1,10 +1,10 @@
+let date = new Date();
 let year = document.querySelector("#years");
 let month = document.querySelector("#monthes");
 let day = document.querySelector("#days");
 let hour = document.querySelector("#hours");
 let minute = document.querySelector("#minutes");
 let second = document.querySelector("#seconds");
-
 year.textContent = date.getFullYear();
 month.textContent = date.getMonth();
 day.textContent = date.getDate();
