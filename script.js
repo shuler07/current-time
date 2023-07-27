@@ -1,5 +1,4 @@
 let year = document.querySelector("#years");
-let year = document.querySelector("#years");
 let month = document.querySelector("#monthes");
 let day = document.querySelector("#days");
 let hour = document.querySelector("#hours");
