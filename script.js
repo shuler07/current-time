@@ -30,3 +30,4 @@ function clock() {
         second.textContent = "0" + date.getSeconds();
     }
 }
+clock();
