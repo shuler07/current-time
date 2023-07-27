@@ -30,7 +30,7 @@ function clock() {
     if (second.textContent < 10) {
         second.textContent = "0" + date.getSeconds();
     }
-    result.textContent = year + "-" + month + "-" + day + "-" + hour + "-" + minute + "-" + second;
+    result.textContent = year + month + day + hour + minute + second;
 }
 
 setTimeout(clock(), 1000);
