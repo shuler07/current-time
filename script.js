@@ -4,7 +4,6 @@ let day = document.querySelector("#days");
 let hour = document.querySelector("#hours");
 let minute = document.querySelector("#minutes");
 let second = document.querySelector("#seconds");
-let result = document.querySelector("#result");
 
 function clock() {
     let date = new Date();
@@ -30,7 +29,6 @@ function clock() {
     if (second.textContent < 10) {
         second.textContent = "0" + date.getSeconds();
     }
-    result.textContent = year + month + day + hour + minute + second;
 }
 
 setTimeout(clock(), 1000);
