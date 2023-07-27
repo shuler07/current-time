@@ -30,4 +30,5 @@ function clock() {
         second.textContent = "0" + date.getSeconds();
     }
 }
-clock();
+
+setTimeout(clock(), 1000);
